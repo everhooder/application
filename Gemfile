@@ -13,6 +13,10 @@ gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem "zurb-foundation"
 
+group :production do
+  gem 'rails_12factor'
+end
+
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
